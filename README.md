@@ -4,9 +4,22 @@ Contains examples of testing with JUnit.
 
 OOP concepts are split into different packages, to improve readability.
 
-The inheritance package contains a class Animal and a class Dog which extends the parent class. 
-An instance is created from the child class and its methods are called.
-Polymorphism is showcased in the classes, with method overriding (dynamic) and method overloading (static).
+
+The inheritance package contains parent and child classes.
+An instance is created from the child classes and its methods are called.
+
+Inheritance challenge:
+Start with a base class of a Vehicle, then create a Car class that inherits from this base class.
+Finally, create another class, a specific type of Car that inherits from the Car class.
+
+You should be able to hand steering, changing gears, and moving (speed in other words).
+You will want to decide where to put the appropriate state and behaviours (fields and methods).
+As mentioned above, changing gears, increasing/decreasing speed should be included.
+For the specific type of vehicle you will want to add something specific for that type of car.
+
+
+Polymorphism is showcased in some of the classes, with method overriding (dynamic) and method overloading (static).
+
 
 The encapsulation package contains BankAccount, Car and VipCustomer classes, showing getter/setter methods, 
 how variables are initialised and multiple constructor creation/calling.
@@ -36,4 +49,8 @@ Create 3 constructors.
 Create getters only for this using code generation of Intellij as setters won't be needed.
 
 
+The abstraction package contains abstract classes, interfaces and child classes that inherit from the abstract classes. There are examples of abstract methods and method overriding.
+
+
+The composition package contains a Product class, containing multiple child classes such as ComputerCase, Monitor, Motherboard, Product and PersonalComputer. The PersonalComputer is able to use methods from all other classes.
         
