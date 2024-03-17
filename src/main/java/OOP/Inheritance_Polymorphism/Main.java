@@ -1,9 +1,9 @@
-package org.Inheritance_Polymorphism;
+package OOP.Inheritance_Polymorphism;
 
 /*
 This keyword and instance/field variables can't be used in static methods
 Main is a static method and is called by the JVM when it starts an application
- */
+*/
 
 public class Main {
     public static void main(String[] args) {

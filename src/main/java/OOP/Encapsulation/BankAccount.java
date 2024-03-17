@@ -1,4 +1,4 @@
-package org.Encapsulation;
+package OOP.Encapsulation;
 
 public class BankAccount {
     private String number;

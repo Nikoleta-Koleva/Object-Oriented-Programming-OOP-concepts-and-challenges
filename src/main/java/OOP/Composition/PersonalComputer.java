@@ -1,4 +1,4 @@
-package org.Composition;
+package OOP.Composition;
 
 public class PersonalComputer extends Product {
     private ComputerCase computerCase;

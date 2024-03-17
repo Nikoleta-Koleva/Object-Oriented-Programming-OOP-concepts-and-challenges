@@ -1,7 +1,7 @@
-package org.Composition;
+package OOP.Composition;
 
 public class Main {
-    public static void Main (String[] args) {
+    public static void main (String[] args) {
         System.out.println("Composition training task");
         ComputerCase theCase = new ComputerCase("2208", "Dell",
                 "240");

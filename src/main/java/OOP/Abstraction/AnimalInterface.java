@@ -1,4 +1,4 @@
-package org.Abstraction;
+package OOP.Abstraction;
 
 public abstract class AnimalInterface {
     public abstract void move();

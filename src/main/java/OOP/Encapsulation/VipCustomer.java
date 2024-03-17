@@ -1,4 +1,4 @@
-package org.Encapsulation;
+package OOP.Encapsulation;
 
 public class VipCustomer {
     private String name;

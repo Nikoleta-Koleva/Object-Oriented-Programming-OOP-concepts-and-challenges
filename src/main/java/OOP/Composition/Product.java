@@ -1,4 +1,4 @@
-package org.Composition;
+package OOP.Composition;
 
 public class Product {
     private String model;

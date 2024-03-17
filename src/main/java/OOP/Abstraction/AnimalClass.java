@@ -1,4 +1,4 @@
-package org.Abstraction;
+package OOP.Abstraction;
 
 abstract class Mammal extends AnimalClass {
     public Mammal (String type, String size, double weight) {
