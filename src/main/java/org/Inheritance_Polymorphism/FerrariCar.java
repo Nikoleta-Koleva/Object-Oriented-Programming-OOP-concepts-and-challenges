@@ -1,4 +1,4 @@
-package org.Composition;
+package org.Inheritance_Polymorphism;
 
 public class FerrariCar extends Car {
     private int roadServiceMonths;

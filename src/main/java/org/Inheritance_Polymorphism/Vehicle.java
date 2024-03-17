@@ -1,4 +1,4 @@
-package org.Composition;
+package org.Inheritance_Polymorphism;
 
 public class Vehicle {
     private String name;
