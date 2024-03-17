@@ -9,6 +9,7 @@ The inheritance package contains parent and child classes.
 An instance is created from the child classes and its methods are called.
 
 Inheritance challenge:
+
 Start with a base class of a Vehicle, then create a Car class that inherits from this base class.
 Finally, create another class, a specific type of Car that inherits from the Car class.
 
