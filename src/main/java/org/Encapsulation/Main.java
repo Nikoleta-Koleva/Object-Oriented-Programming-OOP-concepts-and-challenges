@@ -1,11 +1,7 @@
-package org.example;
+package org.Encapsulation;
 
-/*
-This keyword and instance/field variables can't be used in static methods
-Main is a static method and is called by the JVM when it starts an application
- */
 public class Main {
-    public static void main(String[] args) {
+    public static void main (String args[]) {
         //Instance Method of a class
         Car porsche = new Car();
         Car holden = new Car();
@@ -39,7 +35,6 @@ public class Main {
         Calls the main constructor and sets values
         BankAccount acc = new BankAccount("123", 700.0, "Nikoleta",
                 "nikoleta819@gmail.com", "089 992 8650");
-
          */
 
         acc.withdrawFunds(500.0);
@@ -57,7 +52,7 @@ public class Main {
         3rd constructor should save all fields
 
         create getters only for this using code generation of Intellij as setters won't be needed
-         */
+        */
 
         System.out.println("Encapsulation - Second task");
 
@@ -69,27 +64,5 @@ public class Main {
 
         VipCustomer person3 = new VipCustomer("Tim", 700, "default email");
         System.out.println(person3.getName());
-
-        System.out.println("Inheritance - Training task");
-        Animal animal = new Animal("Animal", 1, 1, 5, 5);
-        Dog dog = new Dog("Yorkie", 8, 20, 2, 4, 1, 20, "long silky");
-
-        dog.eat();
-        dog.walk();
-        dog.run();
-
-        // Challenge.
-        // Start with a base class of a Vehicle, then create a Car class that inherits from this base class.
-        // Finally, create another class, a specific type of Car that inherits from the Car class.
-        // You should be able to hand steering, changing gears, and moving (speed in other words).
-        // You will want to decide where to put the appropriate state and behaviours (fields and methods).
-        // As mentioned above, changing gears, increasing/decreasing speed should be included.
-        // For you specific type of vehicle you will want to add something specific for that type of car.
-
-        System.out.println("Inheritance - First task");
-        FerrariCarInheritance ferrari = new FerrariCarInheritance(25);
-        ferrari.accelerate(80);
-        ferrari.steer(45);
-        ferrari.accelerate(55);
     }
 }
