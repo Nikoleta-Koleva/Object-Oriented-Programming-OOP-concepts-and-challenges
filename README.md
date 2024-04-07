@@ -1,4 +1,4 @@
-A mini project containing a set of tasks related to the OOP concepts and the Composition design pattern, implemented in Java.
+A project containing a set of tasks related to the OOP concepts and the Composition design pattern, implemented in Java.
 
 Contains examples of testing with JUnit.
 
